@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Ders3_ikibutonornek</title>
+    <style>
+        .BirinciButon {
+            background-color: lightgray;
+            color: black;
+        }
+
+        .IkinciButon {
+            background-color: lightgray;
+            color: black;
+        }
+    </style>
+    <script>
+        function button1_Click(btn) {
+            //buton2 değişecek
+            document.getElementById("btn2").style =
+                "color:lightcoral;background-color:pink;";
+            //1.YÖNTEM
+            //document.getElementById("btn1").style ="color:black;background-color:lightgray";
+            //2.YÖNTEM
+            //btn.style ="color:black;background-color:lightgray";
+            //3.YÖNTEM
+            // class="BirinciButton"
+            btn.style = "class:\"BirinciButton\"";
+        }
+        function button2_Click(btn) {
+            document.getElementById("btn1").style =
+                "color:blue;background-color:powderblue;";
+            //1.YÖNTEM
+            //document.getElementById("btn2").style ="color:black;background-color:lightgray";
+            //2.YÖNTEM
+            //btn.style ="color:black;background-color:lightgray";
+            //3.YÖNTEM
+            // class="BirinciButton"
+            btn.style = "class:\"IkinciButton\"";
+
+        }
+    </script>
+</head>
+<body>
+    <input type="button" id="btn1" onclick="button1_Click(this)" value="Buton 1" class="BirinciButon" />
+    <br /><br />
+    <input type="button" id="btn2" onclick="button2_Click(this)" value="Buton 2" class="IkinciButon" />
+
+</body>
+</html>
