@@ -71,7 +71,15 @@
     <Content Include="Ders3_ikibutonornek.html" />
     <Content Include="Ders4_MeyveOrnegi.html" />
     <Content Include="Ders5_4unGelistirilmisi.html" />
+    <Content Include="Ders6_RGBOrnek.html" />
+    <Content Include="Ders7_RenkliDaireler.html" />
     <Content Include="Dersi2_innerhtml_innertext.html" />
+    <Content Include="JQueryOrnek1.html" />
+    <None Include="Scripts\jquery-3.6.0.intellisense.js" />
+    <Content Include="Scripts\jquery-3.6.0.js" />
+    <Content Include="Scripts\jquery-3.6.0.min.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.js" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -79,6 +87,8 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+    <Content Include="Scripts\jquery-3.6.0.slim.min.map" />
+    <Content Include="Scripts\jquery-3.6.0.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
